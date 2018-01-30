@@ -1,0 +1,122 @@
+@font-face {
+  font-family: native;
+  src: url(../../Comfortaa-Regular.ttf);
+}
+@font-face {
+  font-family: nativeBold;
+  src: url(../../Comfortaa-Bold.ttf);
+}
+
+
+.first-page{
+
+}
+.first {
+  background-color: transparent ;
+  padding: 0;
+  margin: 0;
+  z-index: -1;
+
+}
+
+/*First page */
+
+
+html, body
+{
+height: 100%;
+padding: 0;
+margin: 0;
+}
+
+#div1, #div2, #div3, #div4
+{
+width: 50%;
+height: 50%;
+position: absolute;
+
+}
+
+.button1{
+  padding: 0;
+  margin: 0;
+  border-radius: 0;
+}
+
+#div1
+{
+background: #3c6eb4;
+top:0;
+left: 0;
+}
+#div2
+{
+background: #db3279;
+top:0;
+right:0;
+}
+#div3
+{
+background: #e59728;
+bottom: 0;
+left:0;
+}
+#div4
+{
+background: #79db32;
+bottom: 0;
+right:0;
+}
+
+#div1, #div2, #div3, #div4 p
+{
+font-family: 'opensans';
+font-size: 16px;
+color:#ffffff;
+position: absolute;
+}
+
+#logo
+{
+position: absolute;
+left: 50%;
+top: 50%;
+margin-left: -60px;
+margin-top: -60px;
+z-index: 3;
+}
+#mag-logo
+{
+position: absolute;
+left: 25%;
+top: 25%;
+}
+
+#social-logo
+{
+position: absolute;
+left: 25%;
+top: 25%;
+}
+
+#ask-logo
+{
+position: absolute;
+left: 25%;
+top: 25%;
+}
+
+#calender-logo
+{
+position: absolute;
+left: 25%;
+top: 25%;
+}
+
+.caption{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: nativeBold !important;
+  letter-spacing: 1px;
+}
+/*Front page ends*/

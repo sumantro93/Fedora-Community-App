@@ -1,0 +1,46 @@
+{
+  "name": "ionic-gulp-sass-build",
+  "description": "Gulp task for Ionic projects to compile Sass sources into CSS",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/driftyco/ionic-gulp-tasks.git"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-sass": "^2.2.0",
+    "lodash.assign": "^4.0.6"
+  },
+  "bugs": {
+    "url": "https://github.com/driftyco/ionic-gulp-tasks/issues"
+  },
+  "homepage": "https://github.com/driftyco/ionic-gulp-tasks#readme",
+  "_id": "ionic-gulp-sass-build@1.0.0",
+  "scripts": {},
+  "_shasum": "6b8ae6afe9711474946d9e0b4658ea055c4ffff0",
+  "_from": "ionic-gulp-sass-build@>=1.0.0 <2.0.0",
+  "_npmVersion": "3.8.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "tlancina",
+    "email": "tim@ionic.io"
+  },
+  "dist": {
+    "shasum": "6b8ae6afe9711474946d9e0b4658ea055c4ffff0",
+    "tarball": "https://registry.npmjs.org/ionic-gulp-sass-build/-/ionic-gulp-sass-build-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "tlancina",
+      "email": "tim@ionic.io"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ionic-gulp-sass-build-1.0.0.tgz_1458060317338_0.8736565166618675"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ionic-gulp-sass-build/-/ionic-gulp-sass-build-1.0.0.tgz"
+}

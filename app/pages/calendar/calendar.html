@@ -1,0 +1,50 @@
+<!--
+  Generated template for the CalendarPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="calendar">
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+</ion-navbar>
+
+<img id="cal_icon" src="cal_logo.svg"/>
+  <ion-list>
+    <ion-item>
+
+      <ion-select [(ngModel)]="selectedCalendar"
+                  (ngModelChange)="updateMeetings()">
+        <ion-option *ngFor="let calendar of calendars"
+                    [value]="calendar.real_name"
+                    [checked]="calendar.real_name == selectedCalendar">
+          {{ calendar.display_name }}
+        </ion-option>
+      </ion-select>
+    </ion-item>
+    <div *ngIf="meetings.length !== 0">
+      <ion-card *ngFor="let meeting of meetings">
+        <ion-card-header>
+          <strong>{{ meeting.name }}</strong>
+        </ion-card-header>
+        <ion-card-content>
+          {{ meeting.display_description }}
+        </ion-card-content>
+        <ion-row center>
+          <ion-col width-67 padding>
+            <p>{{ meeting.display_date }}</p>
+            <p>{{ meeting.display_time }}</p>
+          </ion-col>
+          <ion-col width-33 padding>
+            <button id="add_button" small tappable (click)="addToCalendar(meeting)">
+              <ion-icon name="add"></ion-icon>Add
+            </button>
+          </ion-col>
+        </ion-row>
+      </ion-card>
+    </div>
+  </ion-list>
+</ion-content>

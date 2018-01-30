@@ -1,0 +1,49 @@
+<!--
+  Generated template for the AskPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content class="first">
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+</ion-navbar>
+
+
+  <img id="logo" src="logo.svg" ng-click="login()" />
+
+        <div id="div1" class="button button1" ion-button  (click)="openMag()">
+          <div id="mag-logo">
+            <img src="m.svg"/>
+            <p class="caption">Magazine</p>
+          </div>
+        </div>
+
+
+        <div id="div2" class="button button1" ion-button  (click)="openSocial()">
+          <div id="social-logo">
+            <img src="s.svg"/>
+            <p class="caption">Social</p>
+          </div>
+        </div>
+
+
+        <div id="div3" class="button button1" ion-button  (click)="openAsk()">
+          <div id="ask-logo">
+            <img src="a.svg"/>
+            <p class="caption">Ask</p>
+          </div>
+        </div>
+
+
+        <div id="div4" class="button button1" ion-button  (click)="openCal()">
+          <div id="calender-logo">
+            <img src="c.svg"/>
+            <p class="caption">Calendar</p>
+          </div>
+        </div>
+
+</ion-content>

@@ -1,0 +1,49 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-calendar": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-spinner-dialog": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.fedoraqa.fedora"
+        }
+    }
+}

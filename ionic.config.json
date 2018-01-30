@@ -1,0 +1,27 @@
+{
+  "name": "fedora-app",
+  "app_id": "",
+  "v2": true,
+  "proxies": [
+    {
+      "path": "/facebook/",
+      "proxyUrl": "https://graph.facebook.com/v2.6/"
+    },
+    {
+      "path": "/twitter/",
+      "proxyUrl": "https://api.twitter.com/1.1/"
+    },
+    {
+      "path": "/fedocal/",
+      "proxyUrl": "https://apps.fedoraproject.org/calendar/api/"
+    },
+    {
+      "path": "/fedoramag/",
+      "proxyUrl": "https://fedoramagazine.org/wp-json/wp/v2/"
+    },
+    {
+      "path": "/askfedora/",
+      "proxyUrl": "https://ask.fedoraproject.org/en/api/v1/"
+    }
+  ]
+}

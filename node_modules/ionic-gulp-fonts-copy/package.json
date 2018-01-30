@@ -1,0 +1,34 @@
+{
+  "name": "ionic-gulp-fonts-copy",
+  "description": "Gulp task for Ionic projects to copy Ionic fonts to a build directory",
+  "version": "1.0.0",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "_id": "ionic-gulp-fonts-copy@1.0.0",
+  "scripts": {},
+  "_shasum": "9d9fd6600a3b2c5132aa4701aa41186b9fba8054",
+  "_from": "ionic-gulp-fonts-copy@>=1.0.0 <2.0.0",
+  "_npmVersion": "3.8.1",
+  "_nodeVersion": "0.12.4",
+  "_npmUser": {
+    "name": "tlancina",
+    "email": "tim@ionic.io"
+  },
+  "dist": {
+    "shasum": "9d9fd6600a3b2c5132aa4701aa41186b9fba8054",
+    "tarball": "https://registry.npmjs.org/ionic-gulp-fonts-copy/-/ionic-gulp-fonts-copy-1.0.0.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "tlancina",
+      "email": "tim@ionic.io"
+    }
+  ],
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/ionic-gulp-fonts-copy-1.0.0.tgz_1458060090129_0.8752205308992416"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/ionic-gulp-fonts-copy/-/ionic-gulp-fonts-copy-1.0.0.tgz"
+}

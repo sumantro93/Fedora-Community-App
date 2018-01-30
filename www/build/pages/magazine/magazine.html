@@ -1,0 +1,59 @@
+<!--
+  Generated template for the MagazinePage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<style rel="stylesheet">
+ion-row{
+  background-color: #294172;
+}
+
+#title
+{
+  color: #ffffff;
+}
+
+ion-card
+{
+  margin-top: 50px;
+}
+
+.button{
+  background-color: transparent;
+  box-shadow: none;
+}
+
+</style>
+<ion-content class="magazine">
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+</ion-navbar>
+<img id="maglogo" src="mag_logo.svg">
+    <img id="mag-title" src="mag_title.svg">
+
+  <ion-list *ngIf="posts.length !== 0">
+    <ion-card *ngFor="let post of posts">
+      <!--<ion-row id="featured-image">
+      <img src="https://fedoramagazine.org/wp-json/wp/v2/media/{{post.id}}" />
+    </ion-row>-->
+      <ion-row>
+        <ion-col width-80 padding tappable (click)="openPost(post)">
+          <strong id="title">
+            {{ post.title }}
+          </strong>
+        </ion-col>
+        <ion-col width-20 center>
+          <button small tappable (click)="sharePost(post)">
+            <ion-icon name="share"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+      <ion-card-content [innerHTML]="post.excerpt">
+      </ion-card-content>
+    </ion-card>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,62 @@
+{
+  "name": "FedoraApp",
+  "version": "0.0.2",
+  "description": "Fedora mobile app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/fedora-qa/fedora-app.git"
+  },
+  "author": "fedoraQA",
+  "license": "UNLICENSED",
+  "homepage": "https://bitbucket.org/fedora-qa/fedora-app#readme",
+  "dependencies": {
+    "@angular/common": "^2.0.0-rc.4",
+    "@angular/compiler": "^2.0.0-rc.4",
+    "@angular/core": "^2.0.0-rc.4",
+    "@angular/http": "^2.0.0-rc.4",
+    "@angular/platform-browser": "^2.0.0-rc.4",
+    "@angular/platform-browser-dynamic": "^2.0.0-rc.4",
+    "@angular/router": "^2.0.0-rc.1",
+    "es6-shim": "^0.35.0",
+    "fb": "^1.1.1",
+    "ionic-angular": "^2.0.0-beta.9",
+    "ionic-native": "^1.3.9",
+    "ionicons": "3.0.0",
+    "lodash": "^4.14.0",
+    "moment": "^2.14.1",
+    "moment-timezone": "^0.5.5",
+    "query-string": "^4.2.2",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "del": "2.2.1",
+    "eslint-config-angular": "^0.5.0",
+    "eslint-config-ionic": "0.0.2",
+    "eslint-plugin-angular": "^1.3.1",
+    "gulp": "3.9.1",
+    "gulp-watch": "^4.3.8",
+    "ionic-gulp-browserify-es2015": "^1.1.0",
+    "ionic-gulp-fonts-copy": "^1.0.0",
+    "ionic-gulp-html-copy": "^1.0.0",
+    "ionic-gulp-image-task": "^1.0.1",
+    "ionic-gulp-sass-build": "^1.0.0",
+    "ionic-gulp-scripts-copy": "^2.0.0",
+    "run-sequence": "1.2.2"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    },
+    "extends": [
+      "ionic",
+      "angular"
+    ]
+  }
+}

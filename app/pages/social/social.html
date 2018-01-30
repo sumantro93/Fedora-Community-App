@@ -1,0 +1,40 @@
+<!--
+  Generated template for the SocialPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-content padding class="social">
+
+<ion-navbar *navbar>
+  <button menuToggle>
+    <ion-icon name="menu"></ion-icon>
+  </button>
+
+</ion-navbar>
+  <img id="social_logo" src="social_icon.svg">
+
+  <ion-list *ngIf="updates.length !== 0" id="social_card">
+    <ion-card *ngFor="let update of updates" >
+
+        <ion-row>
+        <ion-col tappable (click)="openUpdate(update)">
+          {{ update.content }}
+        </ion-col>
+
+      </ion-row>
+      <ion-row >
+        <ion-col center >
+          <button small clear disabled class="s-icon">
+            <ion-icon name="logo-{{ update.origin }}"></ion-icon>
+          </button>
+        </ion-col>
+        <ion-col center>
+          <button small tappable (click)="shareUpdate(update)">
+            <ion-icon name="share"></ion-icon>
+          </button>
+        </ion-col>
+      </ion-row>
+    </ion-card>
+  </ion-list>
+</ion-content>

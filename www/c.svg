@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="72.528"
+   height="72.528"
+   viewBox="0 0 72.528001 72.528001"
+   id="svg5929"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   inkscape:export-filename="/home/kmurarka/app/code/images/calender"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="c.svg">
+  <defs
+     id="defs5931" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="35.66107"
+     inkscape:cy="68.020292"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1366"
+     inkscape:window-height="704"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata5934">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-979.8342)">
+    <path
+       d="m 56.410696,1012.4719 -40.293329,0 0,7.2527 40.293329,0 0,-7.2527 z m 8.058668,-25.3849 -4.029334,0 0,-7.2528 -8.058668,0 0,7.2528 -32.234661,0 0,-7.2528 -8.058667,0 0,7.2528 -4.0293344,0 c -4.472563,0 -8.0183637,3.26377 -8.0183637,7.2528 L 0,1045.1095 c 0,3.989 3.5861049,7.2527 8.0586678,7.2527 l 56.4106642,0 c 4.43227,0 8.058668,-3.2637 8.058668,-7.2527 l 0,-50.7697 c 0,-3.98903 -3.626398,-7.2528 -8.058668,-7.2528 z m 0,58.0225 -56.4106644,0 0,-39.8905 56.4106644,0 0,39.8905 z m -20.14667,-18.1321 -28.205327,0 0,7.2529 28.205327,0 0,-7.2529 z"
+       id="path4391"
+       inkscape:connector-curvature="0"
+       style="fill:#ffffff" />
+  </g>
+</svg>

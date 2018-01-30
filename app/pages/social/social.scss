@@ -1,0 +1,29 @@
+.social {
+  background : url('../../social_back.png');
+  background-color: #FFFFFF;
+}
+
+#social_logo{
+  z-index: 1;
+  display:block;
+  position:absolute;
+  left:0;
+  right:0;
+  top:40px;
+  margin:auto;
+  padding-bottom: 30px;
+}
+
+#social_card{
+  margin-top: 80px !important;
+
+}
+
+.button{
+  box-shadow: none;
+  float: right;
+}
+
+.s-icon{
+  float: left !important;
+}
