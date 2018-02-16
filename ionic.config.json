@@ -1,7 +1,6 @@
 {
   "name": "fedora-app",
   "app_id": "",
-  "v2": true,
   "proxies": [
     {
       "path": "/facebook/",
@@ -23,5 +22,9 @@
       "path": "/askfedora/",
       "proxyUrl": "https://ask.fedoraproject.org/en/api/v1/"
     }
-  ]
+  ],
+  "integrations": {
+    "gulp": {}
+  },
+  "type": "ionic-angular"
 }
